@@ -29,9 +29,10 @@ function App() {
       >
         bizz
       </div>
-      <Tooltip id="foobar" delayHide={0} className="tooltip"/>
+      <Tooltip id="foobar" delayShow={300} delayHide={0} className="tooltip"/>
     </div>
   );
 }
+
 
 export default App;
