@@ -5,8 +5,15 @@
 
 .sidebar-item {
   width: 100px;
+  height: 20px;
   /* margin-bottom: 2px; */
   background-color: #CCC;
+}
+
+.sidebar-item-hidden {
+  width: 100px;
+  height: 20px;
+  /* margin-bottom: 2px; */
 }
 .sidebar-item:hover {
   background-color: #AAA;
